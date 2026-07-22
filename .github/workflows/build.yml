@@ -25,7 +25,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
-          gradle-version: '8.2'          # <-- Use a compatible version
+          gradle-version: '7.5'          # <-- Use a compatible version
 
       - name: Build debug APK
         run: gradle assembleDebug
